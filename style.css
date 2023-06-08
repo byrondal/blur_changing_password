@@ -1,4 +1,41 @@
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: source_code;
+  src: url(./Assets/Font/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf);
+};
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.main-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  width: 20rem;
+  height: 25rem;
+  background-color: beige;
+}
+
+h1, h3, p {
+  font-family: source_code;
+
+}
+
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

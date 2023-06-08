@@ -9,21 +9,26 @@
   <title>Blur Effect</title>
 </head>
 
-<body>
-
-  <section>
-    <div>
+<body id="background-image">
+  <style>
+    body {
+      background-image: url(./Assets/Background\ picture.png);
+    }
+  </style>
+  <section class="main-content">
+    <div class="text-content">
       <h1>Image Password Strength</h1>
       <p>Change the password to see the effect</p>
     </div>
-    <div>
+    <div class="email-content">
       <h3>Email</h3>
-      <input type="text" placeholder="Enter mail" class="email-input">
+      <input type="text" placeholder="Enter mail" id="email-input">
     </div>
-    <div>
+    <div class="password-content">
       <h3>Password</h3>
-      <input type="text" placeholder="Enter password" class="password-input">
+      <input type="text" placeholder="Enter password" id="password-input">
     </div>
+    <button>Submit</button>
   </section>
 
 
