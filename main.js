@@ -7,7 +7,7 @@ passwordInput.addEventListener('input', () => {
   const passwordLength = passwordInput.value.length;
   const blurValue = passwordLength * 2;
 
-  body.style.filter = `blur(${blurValue}px)`;
+  body.style.backdropFilter = `blur(${blurValue}px)`;
 });
 
 
